@@ -14,7 +14,7 @@ function App() {
   
   return (
     <>
-      <h1 className="text-">Hello World with TailwindCSS</h1>
+      <h1 style={{color: 'green'}}>Hello World with TailwindCSS</h1>
       <button onClick={onClose}>Закрый</button>
     </>
   )
